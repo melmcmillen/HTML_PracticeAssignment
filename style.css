@@ -1,0 +1,52 @@
+.pink {
+  color: pink;
+}
+
+.red {
+  color: red;
+}
+
+
+#big {
+  font-size: 25px;
+}
+
+.subheader {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.button {
+  background-color: #c711df;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.box {
+  background-color: rgb(209, 202, 202);
+  padding: 20px;
+  margin: 10px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 100vh;           
+}
+
+/* This keeps the image centered from side to side. */
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
