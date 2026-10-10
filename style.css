@@ -1,3 +1,12 @@
+.highlight {
+  background-color: #f8f0ff;
+  border-left: 4px solid #b47cff;
+  padding: 10px 15px;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+
 .pink {
   color: pink;
 }
@@ -74,3 +83,28 @@
         }
   }
     
+.center-all {
+  text-align: center;
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  padding: 50px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  margin: 10px auto;
+  width: 80%;
+  max-width: 300px;
+  text-align: center;
+}
